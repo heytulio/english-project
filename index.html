@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +12,7 @@
       margin: 0;
       padding: 0;
       background-color: #f5f5f5;
-      color: #333;
+      color: #333
     }
 
     header {
@@ -53,6 +54,7 @@
       box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
       border-radius: 8px;
       overflow: hidden;
+      margin-bottom: 60px;
     }
 
     .featured {
@@ -119,8 +121,54 @@
       background-color: #2980b9;
     }
 
+    .grid {
+      text-align: center;
+      border: 5px solid;
+      margin: 60px;
+      position: relative;
+      border-color: 10px  rgba(0,0,0,0);
+      width: 800px;
+      height: 500px;
+      padding: 10px -50px;
+      
+    }
+
+    .artigo001 {
+      margin: 25px 50px 25px 50px;
+      border: 5px solid rgb(1, 1, 1);
+      background-color: rgb(255, 255, 255);
+      transition: 1s;
+      font-size: 10px;
+      cursor: pointer;
+      box-shadow: 5px 5px rgb(177, 169, 169);
+    }
+
+    .artigo001:hover {
+      margin: 25px 50px 25px 50px;
+      border: 20px solid rgb(0, 9, 11);
+      background-color: rgb(231, 236, 228);
+      transition: 1s;
+    }
+
+    .artigo002 {
+      margin: 25px 50px 25px 50px;
+      border: 5px solid rgb(1, 1, 1);
+      background-color: rgb(245, 246, 247);
+      transition: 1s;
+      font-size: 10px;
+      cursor: pointer;
+      box-shadow: 10px 10px grey;
+    }
+
+    .artigo002:hover {
+      margin: 25px 50px 25px 50px;
+      border: 25px solid rgb(0, 9, 11);
+      background-color: rgb(231, 236, 228);
+      transition: 1s;
+    }
   </style>
 </head>
+
 <body>
 
   <header>
@@ -138,21 +186,27 @@
       <h2>Welcome</h2>
       <p>Welcome to your favourite informative blog, stay tuned with all the news about the tecnology world.</p>
     </div>
-    <center>
-      <article>
-        <h2>Artigo 1</h2>
-        <p>blablabla.</p>
-        <a href="post1.html" class="read-more-btn">Read more</a>
-      </article>
-    <center>
+    <div class="grid">
+      <center>
+        <div class="artigo001">
+          <article>
+            <h2>Artigo 1</h2>
+            <p>blablabla.</p>
+            <a href="post1.html" class="read-more-btn">Read more</a>
+          </article>
+        </div>
+        <center>
 
-    <center>
-      <article>
-        <h2>Artigo 2</h2>
-        <p>outro blablabla.</p>
-        <a href="post2.html" class="read-more-btn">Read more</a>
-      </article>
-    <center>
+          <div class="artigo002">
+            <center>
+              <article>
+                <h2>Artigo 2</h2>
+                <p>outro blablabla.</p>
+                <a href="post2.html" class="read-more-btn">Read more</a>
+              </article>
+              <center>
+          </div>
+    </div>
   </main>
 
   <footer>
@@ -160,4 +214,5 @@
   </footer>
 
 </body>
+
 </html>
