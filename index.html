@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - ADS Blog</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap">
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+
+    header {
+      background-color: #fff;
+      border-bottom: 1px solid #ddd;
+      padding: 1em 0;
+      text-align: center;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      margin: 0;
+      color: #333;
+    }
+
+    nav {
+      background-color: #333;
+      color: #fff;
+      padding: 0.5em;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 0.5em 1em;
+      margin: 0 0.5em;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ddd;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 20px auto;
+      background-color: #fff;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .featured {
+      background: url('featured-image.jpg') center/cover no-repeat;
+      height: 300px;
+      position: relative;
+      color: #fff;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .featured h2 {
+      font-size: 2em;
+      margin: 0;
+    }
+
+    .featured p {
+      font-size: 1.2em;
+    }
+
+    article {
+      padding: 40px;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    p {
+      line-height: 1.6;
+      color: #555;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1em;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+
+    @media (max-width: 600px) {
+      .featured {
+        height: 200px;
+      }
+    }
+
+    .read-more-btn {
+      display: inline-block;
+      background-color: #3498db;
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .read-more-btn:hover {
+      background-color: #2980b9;
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>ADS Blog</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="post.html">Posts</a>
+    <a href="about.html">About</a>
+  </nav>
+
+  <main>
+    <div class="featured">
+      <h2>Welcome</h2>
+      <p>Welcome to your favourite informative blog, stay tuned with all the news about the tecnology world.</p>
+    </div>
+    <center>
+      <article>
+        <h2>Artigo 1</h2>
+        <p>blablabla.</p>
+        <a href="post1.html" class="read-more-btn">Read more</a>
+      </article>
+    <center>
+
+    <center>
+      <article>
+        <h2>Artigo 2</h2>
+        <p>outro blablabla.</p>
+        <a href="post2.html" class="read-more-btn">Read more</a>
+      </article>
+    <center>
+  </main>
+
+  <footer>
+    &copy; 2023 ADS Blog | Designed by us
+  </footer>
+
+</body>
+</html>
